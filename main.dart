@@ -6,8 +6,8 @@ void main() {
   print('idade: $idade');
 
   if (idade >= 18) {
-    print('Maioridade');
+    print('É maior de idade');
   } else {
-    print('Menoridade');
+    print('É maior de idade');
   }
 }
