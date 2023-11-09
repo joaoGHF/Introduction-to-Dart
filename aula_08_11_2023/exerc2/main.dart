@@ -16,5 +16,9 @@ void main(List<String> args) {
 }
 
 void gettingGreet({required String name, String greeting = "Hello"}) {
+  if (name.trim() == "") {
+    print("Name cannot be a void String");
+    return;
+  }
   print("$greeting $name!");
 }
